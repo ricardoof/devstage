@@ -8,5 +8,5 @@ Página de cadastro em evento e cada usuário cadastrado recebe um link de indic
 - Next.js
 - React
 - TailwindCSS
-- Typescript
-
+- TypeScript
+- Node.js
