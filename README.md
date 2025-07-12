@@ -40,7 +40,14 @@ Siga os passos abaixo para executar o projeto localmente.
 - [Node.js](https://nodejs.org/) (versão 20 ou superior)
 - [Docker](https://www.docker.com/) e Docker Compose
 
-### 1. Configurando o Backend
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/ricardoof/devstage.git
+cd devstage
+```
+
+### 2. Configurando o Backend
 
 Primeiro, suba os contêineres do banco de dados e do Redis.
 
@@ -79,7 +86,7 @@ npm run dev
 
 O backend estará rodando em `http://localhost:3333`.
 
-### 2. Configurando o Frontend
+### 3. Configurando o Frontend
 
 Em outro terminal, navegue até a pasta do frontend.
 
