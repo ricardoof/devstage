@@ -2,6 +2,7 @@ import { Radio } from 'lucide-react'
 import Image from 'next/image'
 import logo from '../../assets/logo.svg'
 import { SubscriptionForm } from './subscription-form'
+import { Suspense } from 'react'
 
 export default function Home() {
   return (
@@ -38,7 +39,9 @@ export default function Home() {
           </p>
         </div>
 
-        <SubscriptionForm />
+        <Suspense fallback={<div className="w-full md:max-w-[440px] animate-pulse rounded-2xl bg-gray-700" />}>
+          <SubscriptionForm />
+        </Suspense>
       </div>
     </div>
   )
