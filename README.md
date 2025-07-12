@@ -2,7 +2,7 @@
 
 Projeto desenvolvido durante a Next Level Week (NLW), um evento online da [Rocketseat](https://rocketseat.com.br).
 
-O NLW Connect é uma aplicação de inscrição para eventos com um sistema de ranking e convites, permitindo que os participantes acompanhem sua posição e convidem outras pessoas.
+O DevStage é uma aplicação de inscrição para eventos com um sistema de ranking e convites, permitindo que os participantes acompanhem sua posição e convidem outras pessoas.
 
 <img src="web/public/home.png" />
 <img src="web/public/ranking.png" />
